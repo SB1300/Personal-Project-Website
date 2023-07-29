@@ -1,0 +1,155 @@
+/* Header Section */
+
+header {
+    background-color: lightgray;
+    position: fixed;
+    top: 0;
+    left: 3.75em;
+    right: 2em;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header .menu-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.0625em solid white;
+    position: relative;
+}
+
+header .developer-name {
+    font-size: 1.5em;
+    color: white;
+}
+
+header li {
+    margin: 1.2em 0 1.2em 2em;
+    display: inline-block;
+}
+
+header .menus {
+    padding-left: 0.5em;
+    margin: 0.5em 0;
+}
+
+header li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: aliceblue;
+    border: 0.0625em solid black;
+    padding: 0.5em;
+}
+
+/* Welcome Page */
+
+.parallax-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 60%;
+}
+
+.parallax-img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5 ease;
+}
+
+.parallax-container .text-container {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0.0625em solid white;
+    color: white;
+    padding: 1em;
+}
+
+.parallax-container .text-container h2 {
+    font-size: 2em;
+}
+
+
+/* Main Section */
+
+main {
+    background-color: rgba(240, 248, 255, 0.5);
+    position: relative;
+    transition: background-color 2 ease;
+}
+
+/* Projects Section */
+
+#projects {
+    padding: 3em;
+}
+
+#projects .title {
+    align-self: flex-start;
+    border: 0.0625em solid black;
+    font-size: 1.5em;
+    padding: 1em;
+    margin: 1em 0 1em 0.625em;
+    align-self: flex-start;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5em;
+    text-align: left;
+    font-size: 1.5em;
+    align-self: flex-start;
+    margin-bottom: 1em;
+}
+
+.project .skills {
+    flex: 1;
+    align-self: center;
+    margin-left: 1em;
+    text-align: center;
+}
+
+.project-info {
+    flex: 1;
+    text-align: center;
+}
+
+.project-info .description {
+    padding: 0.5em 0;
+}
+
+.projects-container img {
+    width: 25%;
+    margin-right: 0.5em;
+}
+
+.skills {
+    padding: 0.25em 0;
+}
+
+.skill-image {
+    display: flex;
+    justify-content: center;
+    padding: 1.4em 0 0.3125em 0;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: lightcoral;
+}
+
